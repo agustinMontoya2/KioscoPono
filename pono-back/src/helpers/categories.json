@@ -1,0 +1,24 @@
+[
+    { "category_name": "Bebidas", "parent": null },
+    { "category_name": "Bebidas alcohólicas", "parent": "Bebidas" },
+    { "category_name": "Cervezas", "parent": "Bebidas alcohólicas" },
+    { "category_name": "Vinos", "parent": "Bebidas alcohólicas" },
+    { "category_name": "Gaseosas", "parent": "Bebidas" },
+    { "category_name": "Aguas", "parent": "Bebidas" },
+    { "category_name": "Jugos y aguas saborizadas", "parent": "Bebidas" },
+    { "category_name": "Otras bebidas", "parent": "Bebidas" },
+    { "category_name": "Snacks", "parent": null },
+    { "category_name": "Galletitas", "parent": "Snacks" },
+    { "category_name": "Chocolates", "parent": "Snacks" },
+    { "category_name": "Papas fritas y similares", "parent": "Snacks" },
+    { "category_name": "Caramelos", "parent": "Snacks" },
+    { "category_name": "Chicles", "parent": "Snacks" },
+    { "category_name": "Otros snacks", "parent": "Snacks" },
+    { "category_name": "Productos de almacén", "parent": null },
+    { "category_name": "Lácteos", "parent": "Productos de almacén" },
+    { "category_name": "Panificados", "parent": "Productos de almacén" },
+    { "category_name": "Conservas", "parent": "Productos de almacén" },
+    { "category_name": "Enlatados", "parent": "Productos de almacén" },
+    { "category_name": "Otros", "parent": null }
+  ]
+  
