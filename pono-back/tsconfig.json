@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "commonjs", // Asegúrate de que todos tus archivos .ts usen CommonJS
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -9,7 +9,8 @@
     "target": "ES2021",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "rootDir": "./src",  // Añade esta línea
+    "baseUrl": "./",  // Puedes dejarlo, pero usa rutas relativas en los imports
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
@@ -18,5 +19,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src/**/*.ts"], //  ¡Ruta corregida!
+  "exclude": ["node_modules"]
 }
