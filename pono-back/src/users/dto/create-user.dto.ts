@@ -7,7 +7,7 @@ import {
   IsStrongPassword,
   Length,
 } from 'class-validator';
-import { Match } from 'src/custom-validators/match.decorator';
+import { Match } from '../../custom-validators/match.decorator';
 
 export class CreateUserDto {
   @IsNotEmpty({ message: 'El nombre no puede estar vacio' })
